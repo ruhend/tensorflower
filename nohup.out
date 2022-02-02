@@ -1,0 +1,45 @@
+[I 14:24:58.774 NotebookApp] Serving notebooks from local directory: /home/ruhend/Documents/Code/Projects/tensorflower
+[I 14:24:58.774 NotebookApp] Jupyter Notebook 6.2.0 is running at:
+[I 14:24:58.774 NotebookApp] http://localhost:8888/?token=00754d5ddf00a1bfa130da768d5f044900c01c5fa80dcdcc
+[I 14:24:58.774 NotebookApp]  or http://127.0.0.1:8888/?token=00754d5ddf00a1bfa130da768d5f044900c01c5fa80dcdcc
+[I 14:24:58.774 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 14:24:58.821 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///home/ruhend/.local/share/jupyter/runtime/nbserver-10160-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8888/?token=00754d5ddf00a1bfa130da768d5f044900c01c5fa80dcdcc
+     or http://127.0.0.1:8888/?token=00754d5ddf00a1bfa130da768d5f044900c01c5fa80dcdcc
+[I 14:25:19.883 NotebookApp] Kernel started: 6b1ceeec-c436-44c7-8202-428d79c0040c, name: python3
+[I 14:27:19.869 NotebookApp] Saving file at /Lesson3/FashinMNIST.ipynb
+[I 14:29:19.858 NotebookApp] Saving file at /Lesson3/FashinMNIST.ipynb
+[I 14:31:19.866 NotebookApp] Saving file at /Lesson3/FashinMNIST.ipynb
+[I 14:33:19.870 NotebookApp] Saving file at /Lesson3/FashinMNIST.ipynb
+2022-02-02 14:34:43.809204: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory
+2022-02-02 14:34:43.809241: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+2022-02-02 14:34:58.320456: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory
+2022-02-02 14:34:58.320489: W tensorflow/stream_executor/cuda/cuda_driver.cc:269] failed call to cuInit: UNKNOWN ERROR (303)
+2022-02-02 14:34:58.320513: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (cuarto): /proc/driver/nvidia/version does not exist
+2022-02-02 14:34:58.320747: I tensorflow/core/platform/cpu_feature_guard.cc:151] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-02-02 14:35:00.431404: W tensorflow/core/kernels/data/cache_dataset_ops.cc:768] The calling iterator did not fully read the dataset being cached. In order to avoid unexpected truncation of the dataset, the partially cached contents of the dataset  will be discarded. This can happen if you have an input pipeline similar to `dataset.cache().take(k).repeat()`. You should use `dataset.take(k).cache().repeat()` instead.
+2022-02-02 14:35:01.289647: W tensorflow/core/kernels/data/cache_dataset_ops.cc:768] The calling iterator did not fully read the dataset being cached. In order to avoid unexpected truncation of the dataset, the partially cached contents of the dataset  will be discarded. This can happen if you have an input pipeline similar to `dataset.cache().take(k).repeat()`. You should use `dataset.take(k).cache().repeat()` instead.
+[I 14:35:19.880 NotebookApp] Saving file at /Lesson3/FashinMNIST.ipynb
+[I 14:37:19.869 NotebookApp] Saving file at /Lesson3/FashinMNIST.ipynb
+[I 14:38:00.239 NotebookApp] Saving file at /Lesson3/FashinMNIST.ipynb
+[I 14:39:19.868 NotebookApp] Saving file at /Lesson3/FashinMNIST.ipynb
+[I 14:39:27.072 NotebookApp] Starting buffering for 6b1ceeec-c436-44c7-8202-428d79c0040c:c93b293b548f4f1e805f567cf285b3ea
+[I 14:39:29.093 NotebookApp] Kernel restarted: 6b1ceeec-c436-44c7-8202-428d79c0040c
+[I 14:39:29.103 NotebookApp] Restoring connection for 6b1ceeec-c436-44c7-8202-428d79c0040c:c93b293b548f4f1e805f567cf285b3ea
+[I 14:39:30.204 NotebookApp] Replaying 3 buffered messages
+2022-02-02 14:39:33.969217: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory
+2022-02-02 14:39:33.969259: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+2022-02-02 14:39:36.171518: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory
+2022-02-02 14:39:36.171546: W tensorflow/stream_executor/cuda/cuda_driver.cc:269] failed call to cuInit: UNKNOWN ERROR (303)
+2022-02-02 14:39:36.171565: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (cuarto): /proc/driver/nvidia/version does not exist
+2022-02-02 14:39:36.171773: I tensorflow/core/platform/cpu_feature_guard.cc:151] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-02-02 14:39:38.319202: W tensorflow/core/kernels/data/cache_dataset_ops.cc:768] The calling iterator did not fully read the dataset being cached. In order to avoid unexpected truncation of the dataset, the partially cached contents of the dataset  will be discarded. This can happen if you have an input pipeline similar to `dataset.cache().take(k).repeat()`. You should use `dataset.take(k).cache().repeat()` instead.
+2022-02-02 14:39:38.912114: W tensorflow/core/kernels/data/cache_dataset_ops.cc:768] The calling iterator did not fully read the dataset being cached. In order to avoid unexpected truncation of the dataset, the partially cached contents of the dataset  will be discarded. This can happen if you have an input pipeline similar to `dataset.cache().take(k).repeat()`. You should use `dataset.take(k).cache().repeat()` instead.
+[I 14:41:19.864 NotebookApp] Saving file at /Lesson3/FashinMNIST.ipynb
+[I 14:42:37.421 NotebookApp] Saving file at /Lesson3/FashinMNIST.ipynb
